@@ -1,0 +1,24 @@
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/background1" >
+
+        <Button
+            android:id="@+id/newgameButton"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:text="New Game"
+            android:textColor="@android:color/background_dark" />
+
+        <Button
+            android:id="@+id/aboutButton"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:text="Info" />
+
+    </LinearLayout>
+
+
